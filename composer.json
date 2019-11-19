@@ -1,5 +1,6 @@
 {
     "name": "zhaowenzhi/hello-world",
+    "description":"this is test demo",
     "autoload": {
         "psr-4": {
             "Zhaowenzhi\\ComposerPackageDemo\\": "src/"
