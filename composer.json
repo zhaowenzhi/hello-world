@@ -1,17 +1,8 @@
-
 {
     "name": "zhaowenzhi/hello-world",
-    "description": "this is a demo",
-    "type": "lib",
-    "require": {
-        "phpmailer/phpmailer": "^6.0"
-    },
-    "license": "mit",
-    "authors": [
-        {
-            "name": "zhaowenzhi",
-            "email": "406214349@qq.com"
+    "autoload": {
+        "psr-4": {
+            "Zhaowenzhi\\ComposerPackageDemo\\": "src/"
         }
-    ],
-    "minimum-stability": "dev"
+    }
 }
